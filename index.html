@@ -13,8 +13,8 @@
     <section class="App">
         <div>
             <div class="form">
-                <input type="text" placeholder="City" id="input" onkeyup="whichButton(event)">
-                <button onclick="gettingWeather()"><i class="fa fa-search" aria-hidden="true"></i></button>
+                <input type="text" placeholder="City" id="searchInput">
+                <button id="searchButton"><i class="fa fa-search" aria-hidden="true"></i></button>
             </div>
             <p id="errorMessage"></p>
             <ul class='informationList'>
@@ -37,6 +37,6 @@
             </ul> 
         </div>
     </section>
-    <script src='./scripts/index.js'></script>
+    <script type="module" src='./scripts/index.js'></script>
 </body>
 </html>
